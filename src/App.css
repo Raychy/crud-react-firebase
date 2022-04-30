@@ -1,0 +1,106 @@
+.App {
+  /* text-align: center; */
+  padding: 100px;
+}
+
+.movie-form-card {
+  width: 40%;
+  height: 60vh;
+  float: left;
+}
+.movie-list-section{
+  width: 50%;
+  float: right;
+  /* background-color: teal; */
+  height: 60vh;
+  margin-top: 0px;
+}
+.form{
+  background-color: white;
+  box-shadow:4px 4px 10px #bec2c9;
+  padding: 60px 40px 20px 40px;
+  height: 60vh;
+  border-radius: 10px;
+  text-align: left;
+}
+.layout-column {
+  width: 100%;
+  margin-top: 20px;
+}
+.search-movie-row input[type=text]{
+  padding: 15px;
+  font-size: 16px;
+  width: 60%;
+  border: 1px solid gray;
+  /* border: none;
+  outline: none; */
+  font-style: italic;
+  border-radius: 20px;
+}
+.search-movie-row input[type=text]:focus{
+  outline: none;
+}
+input[type=text], input[type=number]{
+  padding: 10px;
+  font-size: 14px;
+  width: 90%;
+}
+.layout-column label{
+width: 100%;
+margin-top: 4px;
+
+}
+.layout-row button{
+  background-color: teal;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px 30px;
+  margin-top: 20px;
+  float: right;
+  margin-right: 15px;
+}
+.del-btn{
+  background-color: rgb(155, 13, 13);
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px ;
+}
+
+.edit-btn, .add-btn{
+  background-color: teal;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px ;
+}
+.add-btn{
+  margin-bottom: 40px;
+  float: right;
+}
+button:hover{
+  cursor: pointer;
+}
+li{
+  list-style-type: none;
+}
+table{
+  width: 100%;
+  padding: 20px;
+  transition: all 0.3s;
+}
+th{
+  text-align: left;
+}
+.alert__msg--error{
+  background-color: rgb(215, 119, 119);
+  color: white;
+  padding: 10px;
+}
+.alert__msg--success{
+  background-color: rgb(85, 165, 85);
+  color: white;
+  padding: 10px;
+}
+
